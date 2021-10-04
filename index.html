@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Stats preview card component</title>
+  </head>
+  <body>
+    <main class="container">
+      <article class="card">
+        <section class="card__hero">
+          <picture>
+            <source
+              srcset="./images/image-header-mobile.jpg"
+              media="(max-width: 1440px)"
+            />
+            <source srcset="./images/image-header-desktop.jpg" />
+            <img
+              src="./images/image-header-desktop.jpg"
+              alt="des gens qui travaillent"
+            />
+          </picture>
+        </section>
+
+        <section class="card__container">
+          <h1 class="card__title">
+            Get <span>insights</span> that help your business grow.
+          </h1>
+          <div class="card__description">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </div>
+          <div class="card__experience">
+            <div class="card__content">
+              <p class="experience__data">10K+</p>
+              <p class="name__data">Compagnies</p>
+            </div>
+            <div class="card__content">
+              <p class="experience__data">314</p>
+              <p class="name__data">Templates</p>
+            </div>
+            <div class="card__content">
+              <p class="experience__data">12M+</p>
+              <p class="name__data">Queries</p>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
