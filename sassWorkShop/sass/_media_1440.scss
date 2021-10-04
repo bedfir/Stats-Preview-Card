@@ -9,6 +9,13 @@
       justify-content: space-between;
       margin: 0;
 
+      .card__hero {
+        picture img,
+        .overlay {
+          border-radius: 0 10px 10px 0;
+        }
+      }
+
       .card__container {
         width: 40%;
         justify-content: start;

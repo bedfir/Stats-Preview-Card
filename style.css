@@ -100,9 +100,20 @@ body {
   border-radius: 10px;
   background-color: #1b1938;
 }
+.container .card .card__hero {
+  position: relative;
+}
 .container .card .card__hero picture img {
   max-width: 100%;
   height: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.container .card .card__hero .overlay {
+  position: absolute;
+  top: 0;
+  background: rgba(170, 92, 219, 0.7);
+  height: 100%;
+  width: 100%;
   border-radius: 10px 10px 0 0;
 }
 .container .card .card__container {
@@ -158,6 +169,10 @@ body {
     flex-direction: row-reverse;
     justify-content: space-between;
     margin: 0;
+  }
+  .container .card .card__hero picture img,
+.container .card .card__hero .overlay {
+    border-radius: 0 10px 10px 0;
   }
   .container .card .card__container {
     width: 40%;
