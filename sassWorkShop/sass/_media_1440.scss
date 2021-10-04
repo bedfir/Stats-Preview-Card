@@ -1,0 +1,44 @@
+@media screen and (min-width: 1440px) {
+  .container {
+    align-items: center;
+
+    .card {
+      max-width: 1117px;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      margin: 0;
+
+      .card__container {
+        width: 40%;
+        justify-content: start;
+        text-align: start;
+
+        .card__title {
+          padding: 10px;
+          font-size: 2.3rem;
+          margin: 1.6rem 0 0 2.5rem;
+        }
+
+        .card__description {
+          padding: 10px;
+          font-weight: $weight-medium;
+          font-size: 0.9rem;
+          margin: 0.4rem 0 2.4rem 2.5rem;
+        }
+
+        .card__experience {
+          flex-direction: row;
+          gap: 4.4rem;
+          margin-top: 1.7rem;
+
+          .card__content {
+            .name__data {
+              font-size: 0.7;
+            }
+          }
+        }
+      }
+    }
+  }
+}
